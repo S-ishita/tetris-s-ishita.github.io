@@ -37,8 +37,6 @@
     color: #1f0322;
 }
 
-
-
 .navbar-link a{
     text-decoration: none;
     margin-right: 20px;
@@ -48,6 +46,9 @@
    display: block;
    
 }
+
+
+
 
 
 .navbar-links .active{
@@ -191,10 +192,11 @@
 .box{
     height:460px;
     border:none;
-    box-shadow: 0 0.1rem 1.4rem 0 rgba(86,185,235,0.5);
+   /* box-shadow: 0 0.1rem 1.4rem 0 rgba(86,185,235,0.5);*/
     position: relative;
     border-radius: 5px;
     background-color: aquamarine;
+    z-index: -1;
 }
 
 /*creating smaller panels*/
@@ -214,7 +216,9 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
+    z-index: 2;
 }
+
 .box-content h2{
     color: #c24cf6;
     visibility: hidden;
@@ -249,7 +253,8 @@
 /*arrange control buttons*/
 .controls{
     text-align: center;
-    margin: 0 auto;
+    margin: 0 ;
+  /* float: left;*/
 }
 
 /*styling for keys*/
