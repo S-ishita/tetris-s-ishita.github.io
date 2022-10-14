@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Assistant:wght@300;400;500;600;700;800&family=Rammetto+One&display=swap');
 
-
-
-
-
 * {
 
     box-sizing: border-box;
@@ -17,10 +13,6 @@
     scroll-behavior: smooth;
 
 }
-
-
-
-
 
 
 
@@ -49,8 +41,6 @@
     padding-right: 10px;
 
 }
-
-
 
 
 
@@ -848,37 +838,7 @@ footer p {
 
 
 
-.social-networks {
 
-    text-align: center;
-
-
-
-}
-
-
-
-.social-networks>li {
-
-    display: inline;
-
-}
-
-
-
-.social-networks i {
-
-    font-size: 2.5rem;
-
-    margin: 1rem;
-
-    padding: .25rem;
-
-    color: #cea716;
-
-    justify-content: space-between;
-
-}
 
 
 
