@@ -322,7 +322,7 @@ document.addEventListener('DOMContentLoaded',()=>{
             startButton.style.color='white';
             startButton.disabled=true;
             localStorage.setItem("mostRecentScore",score);
-            return window.location.assign("first.html");
+            return window.location.assign("index.html");
         }
     }
 
