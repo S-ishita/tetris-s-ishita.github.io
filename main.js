@@ -127,11 +127,11 @@ document.addEventListener('DOMContentLoaded',()=>{
         if(timerId){
             clearInterval(timerId);
             timerId=null;
-            startButton.innerHTML='Game Paused';
+            startButton.innerText='Game Paused';
         }else{
             draw();
             timerId=setInterval(moveDown,1000);
-            startButton.innerHTML='Started';
+            startButton.innerText='Started';
             nextRandom=Math.floor(Math.random() *theTetriminos.length);
         }
        });
