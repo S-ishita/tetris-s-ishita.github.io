@@ -617,7 +617,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             //redirect player to the scores page
 
-            return window.location.assign("index.html"); //player should be able to save score locally, navigate to other pages in the site
+          //  return window.location.assign("index.html"); //player should be able to save score locally, navigate to other pages in the site
 
         }
 
